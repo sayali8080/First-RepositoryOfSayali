@@ -22,16 +22,10 @@ public class ArraylistPrgm
 		Object a2 = al.clone();
 		System.out.println(a2);
 		System.out.println(al.equals(a2));
-		
 		System.out.println(al.isEmpty());	
-	
-		System.out.println(al.get(0));
-		
+        System.out.println(al.get(0));
 		System.out.println(al.lastIndexOf("sayali"));
-		
 		System.out.println(al.size());
-		
-
 		System.out.println(al.set(2, "Mandarani"));
 		System.out.println(al);
 		
