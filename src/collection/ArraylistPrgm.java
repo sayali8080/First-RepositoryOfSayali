@@ -18,15 +18,12 @@ public class ArraylistPrgm
 		al.add(77.90);
 		al.add("sayali");
 		al.add('A');
-		
 		System.out.println(al);
 		Object a2 = al.clone();
 		System.out.println(a2);
-		
 		System.out.println(al.equals(a2));
 		
-		System.out.println(al.isEmpty());
-		
+		System.out.println(al.isEmpty());	
 	
 		System.out.println(al.get(0));
 		
